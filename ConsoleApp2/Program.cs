@@ -2,40 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ConsoleApp2
-{
-    class Member
-    {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Gender { get; set; }
-        public DateTime DateOfBirth { get; set; }
-        public string Phone { get; set; }
-        public string BirthPlace { get; set; }
-        public uint Age { get { return (uint)(DateTime.Now.Year - DateOfBirth.Year); } }
-        public bool IsGraduated { get; set; }
-
-        public Member(string firstName, string lastName, string gender, DateTime dateOfBirth, string phone, string birthPlace, bool isGraduated)
-        {
-            FirstName = firstName;
-            LastName = lastName;
-            Gender = gender;
-            DateOfBirth = dateOfBirth;
-            Phone = phone;
-            BirthPlace = birthPlace;
-            IsGraduated = isGraduated;
-        }
-
-        public override string ToString()
-        {
-            // Fix true false become Graduted or Not Graduated
-            string Graduated = (IsGraduated) ? "Graduated" : "Not Graduated";
-            // always add extra line
-            return FirstName + "\t" + LastName + "\t" + Gender + "\t" + DateOfBirth + "\t" + Phone + "\t" +
-                BirthPlace + "\t" + IsGraduated;
-        }
-    }
-
+namespace RookiesAssignment2
+{   
     class Program
     {
         static void Main(string[] args)
@@ -44,7 +12,8 @@ namespace ConsoleApp2
             {
                 new Member("Linh","Le","Male",new DateTime(2000,10,1),"0915975898","Ha Noi",true),
                 new Member("Linh","Tran","Male",new DateTime(2001,10,2),"0962689212","Phu Tho",false),
-                new Member("Linh","Nguyen","FeMale",new DateTime(2001,10,3),"0988356436","Ha Noi",false)
+                new Member("Linh","Nguyen","FeMale",new DateTime(2001,10,3),"0988356436","Ha Noi",false),
+                new Member("Linh","Bui","FeMale",new DateTime(1999,10,3),"0913356436","Ha Noi",false)
             };
 
             Console.WriteLine("1. List male:");

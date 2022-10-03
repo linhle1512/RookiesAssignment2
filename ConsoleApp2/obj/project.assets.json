@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\ConsoleApp2\\Ex1\\ConsoleApp2\\ConsoleApp2.csproj",
-      "projectName": "ConsoleApp2",
-      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\ConsoleApp2\\Ex1\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\ConsoleApp2\\Ex1\\ConsoleApp2\\RookiesAssignment2.csproj",
+      "projectName": "RookiesAssignment2",
+      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\ConsoleApp2\\Ex1\\ConsoleApp2\\RookiesAssignment2.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ADMIN\\source\\repos\\ConsoleApp2\\Ex1\\ConsoleApp2\\obj\\",
       "projectStyle": "PackageReference",
