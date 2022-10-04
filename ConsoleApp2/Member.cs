@@ -28,13 +28,15 @@ namespace RookiesAssignment2
             IsGraduated = isGraduated;
         }
 
-        public override string ToString()
+        public string Information
         {
-            // Fix true false become Graduted or Not Graduated
-            string Graduated = (IsGraduated) ? "Graduated" : "Not Graduated";
-            // always add extra line
-            return FirstName + "\t" + LastName + "\t" + Gender + "\t" + DateOfBirth + "\t" + Phone + "\t" + 
-                BirthPlace + "\t" + Age + "\t" + Graduated;
+            get
+            {
+                string Graduated = (IsGraduated) ? "Graduated" : "Not Graduated";
+                // always add extra line
+                return FirstName + "\t" + LastName + "\t" + Gender + "\t" + DateOfBirth + "\t" + Phone + "\t" +
+                    BirthPlace + "\t" + Age + "\t" + Graduated;
+            }
         }
     }
 }
